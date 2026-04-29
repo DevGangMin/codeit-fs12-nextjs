@@ -24,7 +24,7 @@ export default async function Home() {
               key={cat.id}
               className="border rounded-lg overflow-hidden shadow-md"
             >
-              <figure className="h-48">
+              <figure className="h-64">
                 <img
                   src={cat.url}
                   alt={cat.breeds[0]?.name || "고양이"}
